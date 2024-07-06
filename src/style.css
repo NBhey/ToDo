@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px 0;
+   
+    background-color: bisque;
+}
+li {
+    list-style-type: none;
+}
+label {
+    cursor: pointer;
+}
+.main {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 800px;
+    background-color: rgb(95, 173, 238);
+    text-align: center;
+    border-radius: 50px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.list {
+    margin-top: 50px;
+}
+.list li input:checked + label{
+    text-decoration: line-through;
+}
+.important {
+    color: red;
+}
+
+.btn-add {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
